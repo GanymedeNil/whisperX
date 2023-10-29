@@ -24,7 +24,7 @@ setup(
             open(os.path.join(os.path.dirname(__file__), "requirements.txt"))
         )
     ]
-    + [f"pyannote.audio==3.0.1"],
+    + [f"pyannote.audio @ git+https://github.com/GanymedeNil/pyannote-audio.git@35e374951123a000da3172667c1b2699b3876329"],
     entry_points={
         "console_scripts": ["whisperx=whisperx.transcribe:cli"],
     },
