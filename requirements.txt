@@ -1,6 +1,6 @@
 torch>=2
 torchaudio>=2
-faster-whisper>=0.8
+faster-whisper @ git+https://github.com/GanymedeNil/faster-whisper.git@476ec3050c0dcc8a1175dd1dfff1b26161c4674f
 transformers
 ffmpeg-python>=0.2
 pandas
